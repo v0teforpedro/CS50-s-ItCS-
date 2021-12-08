@@ -1,0 +1,7 @@
+1 - Asking user to input the height 
+2 - User needs to input a height between 1 and 8. No less than 1 or greater than 8
+3 - If the user input it's not between 1 and 8 it reprompts
+4 - The program iterates from 1 through the height that it was input by the user
+5 - 1st for loop creates the height of the pyramid (row)
+6 - 2nd for loop creates the width of the pyramid (column), by printing combination of spaces and hashes
+

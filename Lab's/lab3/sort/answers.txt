@@ -1,0 +1,15 @@
+sort1 uses: bubble sort
+
+How do you know?: Worst case scenario for "bubble sort" is reversed array. Sort1 showed worst time in this category. 
+(worst case scenario = O(n2), best case scenario Omega(n))
+
+sort2 uses: merge sort
+
+How do you know?: Since i've identified "sort1" as "bubble sort", "merge sort" should perform close (timewise) to best case in "sorted scenario" of "bubble sort" (which is Omega(n)), 
+while showing best results in other tests (especially random category). Which was confimed by results of "sort2"
+(worst case scenario = O(n log n), best case scenario = Omega(n log n)
+
+sort3 uses: selection sort
+
+How do you know?: Since both worst and best case scenario for selection sort are identical, we should see similar time in all tests, either sorted, unsorted or random.
+(worst case scenario = O(n2), best case scenario = Omega(n2))

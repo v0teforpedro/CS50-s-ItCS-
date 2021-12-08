@@ -1,0 +1,15 @@
+// Second solution:
+
+for (int i = 0; i < strlen(word); i++)
+    {
+        if (isupper(word[i]))
+        {
+            score += POINTS[word[i]-'A'];
+        }
+        else if (islower(word[i]))
+        {
+            score += POINTS[word[i]-'a'];
+        }
+    }
+    return score;
+}
